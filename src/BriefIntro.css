@@ -10,10 +10,10 @@ body, html {
     height: 90vh;
     background-color: #f9f9f9;
     text-align: left;
-    margin: 25px;
+    margin: 1.5625rem;
   }
   .l1{
-    margin: 30px 0px 25px 0px;
+    margin: 1.875rem 0px 1.5625rem 0px;
     width: 100%;
     background-color: black;
   }
@@ -21,59 +21,59 @@ body, html {
   /* Skill entry section */
   .skill-entry {
     flex: 1;
-    padding: 40px;
+    padding: 2.5rem;
     background-color: white;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.625rem;
+    box-shadow: 0px 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
     margin-left: 0;
   }
   .skill{
     font-weight: 549;
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   
   .progress-indicator {
-    font-size: 16px;
+    font-size: 1rem;
     color: #999;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
   
   h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 0.625rem;
     color: #333;
   }
   
   .description {
     width: 78%;
-    font-size: 14px;
-    margin-bottom: 20px;
+    font-size: 0.875rem;
+    margin-bottom: 1.25rem;
     color: #666;
   }
   
   label {
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #333;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
     display: block;
   }
   
   .skill-input {
     width: 40%;
-    padding: 12px;
-    font-size: 16px;
+    padding: 0.75rem;
+    font-size: 1rem;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 20px;
+    border-radius: 0.3125rem;
+    margin-bottom: 1.25rem;
   }
 
   .bio-input{
     width: 41.5%;
     height: 35%;
-    padding: 12px;
-    font-size: 16px;
+    padding: 0.75rem;
+    font-size: 1rem;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 0.5rem;
   }
   .b{
     width: 43%;
@@ -82,8 +82,8 @@ body, html {
     flex-direction: row-reverse;
   }
   .atleast{
-   margin: 8px 0px;
-   font-size: 12px;
+   margin: 0.5rem 0px;
+   font-size: 0.75rem;
    font-weight: 500;
    color: #333;
   }
@@ -92,67 +92,67 @@ body, html {
   .suggestion-card {
     flex: 0;
     background-color: #f5f7fa;
-    border-radius: 30px;
-    padding: 15px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 1.875rem;
+    padding: 0.9375rem;
+    box-shadow: 0px 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 220px;
-    height: 250px;
+    width: 13.75rem;
+    height: 15.625rem;
     position: absolute;
-    right: 50px; /* Move to the right corner */
-    top: 350px; /* Center vertically */
+    right: 3.125rem; /* Move to the right corner */
+    top: 21.875rem; /* Center vertically */
     transform: translateY(-50%); /* Offset to truly center */
-    margin-right: 50px;
+    margin-right: 3.125rem;
   }
   
   .profile {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
   
   .profile-image img {
-    width: 70px;
-    height: 70px;
+    width: 4.375rem;
+    height: 4.375rem;
     border-radius: 50%;
   }
   
   .profile-details {
     flex-grow: 1;
-    margin-left: 10px;
+    margin-left: 0.625rem;
   }
   
   .profile-details h3 {
     margin: 0;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #333;
   }
   
   .profile-details p {
     margin: 0;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #666;
   }
   
   .arrow-icon {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #666;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 0.625rem;
   }
   
   /* Suggestion text */
   .suggestion-text {
-    font-size: 12px;
-    width: 170px;
+    font-size: 0.75rem;
+    width: 10.625rem;
     color: black;
     font-style: italic;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0.625rem;
     font-weight: 500;
   }
   .learn{
@@ -162,20 +162,20 @@ body, html {
   /* Bottom buttons */
   .form-buttons {
     position: absolute;
-    bottom: 50px;
+    bottom: 3.125rem;
     width: 92%;
     display: flex;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 1.25rem;
   }
   .back-button,
   .next-button {
-    padding: 10px 20px;
-    font-size: 14px;
-    border-radius: 5px;
+    padding: 0.625rem 1.25rem;
+    font-size: 0.875rem;
+    border-radius: 0.3125rem;
     cursor: pointer;
     border: 1px solid transparent;
-    width: 100px;
+    width: 6.25rem;
     font-weight: 545;
   }
   
@@ -193,7 +193,7 @@ body, html {
     background-color: rgb(208, 240, 240);
     color: black;
     border: none;
-    width: 150px;
+    width: 9.375rem;
   }
 
   .next-button:hover{
@@ -227,7 +227,7 @@ body, html {
   }
   .suggestion-card {
       position: static;
-      margin: 20px 0;
+      margin: 1.25rem 0;
   }
   .skill-input, .bio-input {
       width: 80%;
@@ -245,11 +245,11 @@ body, html {
   }
   .skill-entry {
       width: 100%;
-      padding: 20px;
+      padding: 1.25rem;
   }
   .suggestion-card {
       position: static;
-      margin-top: 20px;
+      margin-top: 1.25rem;
       width: 90%;
       height: auto;
   }
